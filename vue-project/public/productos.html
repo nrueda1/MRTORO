@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Login - SB Admin</title>
+        <link href="../css/styles.css" rel="stylesheet" />
+        <!--link para los iconos-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bg-whith">
+        <div id="layoutAuthentication">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">PRODUCTOS <i class="fa-solid fa-burger"></i></h3></div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="inpuNombre" type="text" placeholder="Nombre de Producto" />
+                                                <label for="inputEmail">Nombre de Producto</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" id="inputPrecio" type="text" placeholder="Precio de Producto" />
+                                                <label for="inputPassword">Pecio de Producto</label>
+                                            </div>
+                                            <select class="form-select" aria-label="Default select example">
+                                              </select>
+                                              <br>
+                                              <div class="d-grid gap-2 col-6 mx-auto">
+                                                <a class="btn btn-warning btn-lg" id="registrar_producto">Registrar</a>
+                                            </div>
+                                        </form>
+                                        <br>
+                                        <div class="card-header"><h3 class="text-center font-weight-light my-4">TIPO DE PRODUCTOS <i class="fa-solid fa-burger"></i></h3></div>
+                                            <form>
+                                                <br>
+                                                <div class="form-floating mb-3">
+                                                    <input class="form-control" id="inputEmail" type="email" placeholder="Nombre de Producto" />
+                                                    <label for="inputEmail">Nombre de Producto</label>
+                                                </div>
+                                                  <br>
+                                                  <div class="d-grid gap-2 col-6 mx-auto">
+                                                    <a class="btn btn-warning btn-lg" onclick="Autentificacion()">Agregar Tipo de Producto</a>
+                                                </div>
+                                            </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="../js/scripts.js"></script>
+    </body>
+</html>
